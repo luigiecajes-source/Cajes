@@ -1,0 +1,16 @@
+public class Linglang
+{
+ public static void main(String[]args){
+     int[] arr = {3, 8, 12, 5, 9, 15, 20};
+     
+     int target = 9;
+     for (int n : arr) {
+         if(n== target) {
+             
+         System.out.println("Found " + target + "! Stopping loop.");
+         break;
+         }
+         System.out.println(n);
+     }
+ }
+}
